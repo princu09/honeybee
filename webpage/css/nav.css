@@ -1,0 +1,234 @@
+/* Fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+
+.header {
+    background-image: url('Background.jpg');
+    background-position: top;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Navbar Collaps */
+
+.navbar-collaps,
+.navbar-close {
+    display: none;
+}
+
+@media(max-width:825px) {
+    .navbar-collaps {
+        display: block;
+        font-size: 2rem;
+        color: #000;
+        top: 10px;
+        position: absolute;
+        left: 10px;
+    }
+
+    .navbar-close {
+        display: block;
+        font-size: 2rem;
+        color: #fff;
+        top: 10px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .navbar-collaps:hover {
+        color: white;
+    }
+}
+
+/* HBN Logo */
+
+.hbn-logo {
+    display: inline-flex;
+}
+
+.hbn-logo .logo {
+    width: 130px;
+    height: auto;
+}
+
+@media(max-width:825px) {
+    .hbn-logo .logo {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* Gian Sristi Logo */
+
+.gian-sristi .sristi-logo {
+    width: 130px;
+    height: auto;
+}
+
+.gian-sristi .gian-logo {
+    width: auto;
+    height: 80px;
+}
+
+@media(max-width:825px) {
+    .gian-sristi .sristi-logo {
+        width: 75px;
+        height: auto;
+    }
+
+    .gian-sristi .gian-logo {
+        width: auto;
+        height: 50px;
+    }
+}
+
+@media(max-width:512px) {
+    .gian-sristi .sristi-logo {
+        width: 60px;
+        height: auto;
+    }
+
+    .gian-sristi .gian-logo {
+        width: auto;
+        height: 40px;
+    }
+
+    .gian-sristi {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:376px) {
+    .gian-sristi .sristi-logo {
+        width: 50px;
+        height: auto;
+    }
+
+    .gian-sristi .gian-logo {
+        width: auto;
+        height: 30px;
+    }
+}
+
+/* navbar */
+
+.nav {
+    justify-content: center;
+    font-weight: 600;
+    height: auto;
+}
+
+@media(max-width:1457px) {
+    .nav {
+        padding: 0 5rem !important;
+    }
+}
+
+@media(max-width:889px) {
+    .nav {
+        padding: 0 3rem !important;
+    }
+}
+
+
+/* Nav ul */
+
+.nav>ul {
+    display: contents;
+}
+
+@media(max-width:825px) {
+    .nav>ul {
+        display: flex;
+        flex-direction: column;
+        left: 20px;
+        top: 20px;
+        position: absolute;
+    }
+}
+
+.nav>ul .nav-menu {
+    margin-right: 1rem;
+}
+
+.nav ul .nav-menu a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 0.5rem;
+    list-style: none;
+    transition: 0.3s color ease-in-out;
+}
+
+.nav ul .nav-menu a:hover {
+    color: #fff;
+}
+
+.nav ul .nav-menu .sub-menu {
+    display: none;
+    background: #000;
+    list-style: none;
+    border-radius: 5px;
+    color: #fff;
+    min-width: 15rem;
+    padding: 0.5rem 1rem;
+    margin-top: -0.5rem;
+    position: absolute;
+    z-index: 99;
+}
+
+.nav ul .nav-menu .sub-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav ul .nav-menu .sub-menu a:hover {
+    color: darkorange;
+}
+
+.nav ul .nav-menu .show {
+    display: block;
+}
+
+.sub-menu .sub-menu2 {
+    display: block;
+    position: relative;
+    left: 10%;
+}
+
+@media(max-width:825px) {
+    .nav .none {
+        display: none;
+    }
+
+    .nav ul .nav-menu>a {
+        pointer-events: none;
+        color: #fff;
+    }
+
+    .nav ul .nav-menu .sub-menu {
+        position: relative;
+    }
+
+    .nav .ul-menu {
+        z-index: 99;
+        left: 0;
+        top: 0;
+        padding: 0 1.5rem;
+        background-color: #000;
+        position: absolute;
+        min-width: 20rem;
+    }
+}

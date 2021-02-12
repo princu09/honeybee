@@ -1,0 +1,106 @@
+.carousel-inner .first {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .4) 100%), url(../assets/img1.jpg);
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-inner .first .container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-inner .first .carousel-caption {
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: left;
+    text-shadow: none;
+    width: 80%;
+}
+
+.carousel-inner .first .carousel-caption small {
+    font-size: 13px;
+    color: #f0f0f0;
+    font-weight: 600;
+    animation-delay: 1s;
+}
+
+.carousel-inner .first .carousel-caption .phone {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ff5722;
+}
+
+.carousel-inner .first .carousel-caption h1 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-inner .first .carousel-caption .lead {
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.carousel-inner .second {
+    background: linear-gradient(to right, rgba(0, 0, 0, .6) 0%, rgba(0, 0, 0, .4) 100%), url(../assets/img2.jpg);
+    min-height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.carousel-inner .second .container {
+    position: absolute;
+    left: 0;
+    right: -50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-inner .second .carousel-caption {
+    position: relative;
+    right: 0;
+    left: 0;
+    text-align: right;
+    text-shadow: none;
+    width: 70%;
+}
+
+.carousel-inner .second .carousel-caption h1 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.carousel-inner .second .carousel-caption .lead {
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#carouselExampleIndicators .carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    background-color: darkorange;
+}
+
+.fa-chevron-circle-right , .fa-chevron-circle-left{
+    font-size: 1.5rem !important;
+}
