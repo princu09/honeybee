@@ -14,6 +14,7 @@ $(document).ready(function () {
             $(this).children(".sub-menu").fadeToggle("slow");
             $(this).children(".sub-menu").toggleClass("show");
         });
+        $(".navbar-collaps").addClass("btn");
     }
     if ($(window).innerWidth() > 825) {
         $(".nav-menu").hover(function () {

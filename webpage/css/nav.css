@@ -163,6 +163,10 @@ body {
     margin-right: 1rem;
 }
 
+.nav>ul .nav-menu li{
+    font-size: 1.2rem;
+}
+
 .nav ul .nav-menu a {
     text-decoration: none;
     color: #000;
