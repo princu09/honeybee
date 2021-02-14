@@ -40,7 +40,7 @@ body {
     .navbar-close {
         display: block;
         font-size: 2rem;
-        color: #fff;
+        color: #fff !important;
         top: 10px;
         position: absolute;
         right: 15px;

@@ -1,0 +1,80 @@
+.heading-span {
+    font-size: 1.2rem;
+}
+
+.heading-span span {
+    content: "";
+    height: 3px;
+    width: 80px;
+    background: orange;
+    text-align: center;
+    display: block;
+}
+
+.read-more-btn {
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000;
+    padding: 0.3rem;
+    border-radius: 3px;
+    background: none;
+    border: 2px solid darkorange;
+    transition: all 0.2s ease-in-out;
+}
+
+.read-more-btn:hover {
+    background: darkorange;
+    text-decoration: none;
+    color: #fff;
+}
+
+.innovation-col div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 2rem;
+    background: #000;
+    color: #fff;
+    height: 10rem;
+    width: 13rem;
+}
+
+.innovation-col div:nth-child(1) {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/event_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innovation-col div:nth-child(2) {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/event_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innovation-col div:nth-child(3) {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/event_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innovation-col div:nth-child(4) {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/event_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.innovation-col div:nth-child(5) {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
